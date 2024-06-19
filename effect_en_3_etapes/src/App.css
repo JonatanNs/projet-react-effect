@@ -1,0 +1,37 @@
+#root {
+  padding: 1rem;
+}
+
+#root ul.posts {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+  row-gap: 1.5rem;
+  padding:0;
+}
+
+#root .posts li {
+  border: 1px solid white;
+  padding:1.5rem;
+}
+
+#root .posts li button{
+  background-color: #7bf1a4;
+  color:black;
+}
+
+#root ul.comments {
+  margin-top: 4rem;
+  list-style: none;
+  padding:0;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap : 0.5rem;
+  font-size: 0.9rem;
+}
+
+#root ul.comments li {
+  border-top: 1px solid #777777;
+}
+
